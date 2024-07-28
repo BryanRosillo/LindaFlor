@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 0xp;
+}
+
+/*----------------------------------------------------------------HEADER------------------------------------------------------------*/
+#logo img{
+    width: 80px;
+}
+
+#navbarNav{
+    justify-content: end;
+}
+
+#navbarNav a{
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+}
+
+#navbarNav a:hover{
+    background-color:rgb(238, 92, 121);
+}
+
+
+header{
+    background-color: rgba(218, 13, 54, 0.863);
+}
+
+
+/*----------------------------------------------------------------PRESENTACIÓN------------------------------------------------------------*/
+
+#grupoInicio{
+    width: 100%;
+    padding-top:20px ;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 36%, rgb(218, 80, 119) 89%);
+    display: flex;
+    justify-content: space-around;
+
+}
+
+#mensajeInicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+#mensajeInicio h1{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#mensajeInicio h2{
+    font-size: 30px;
+}
+
+/*----------------------------------------------------------------ACERCA-DE------------------------------------------------------------*/
+#acercaDe{
+    width: 100%;
+    padding: 50px;
+    background-color: rgb(241, 152, 201);
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+#acercaDe div{
+    border-radius: 20px;
+    padding: 30px;
+    background-color: rgb(233, 196, 225);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#acercaDe p{
+    font-size: 22px;
+}
+
+/*----------------------------------------------------------------LISTA-ARREGLOS------------------------------------------------------------*/
+.zoom {
+    transition: transform .2s; 
+}
+.zoom:hover {
+    transform: scale(1.7); 
+}
+
+#listaArreglos{
+    width: 100%;
+    padding: 30px;
+    background-color: rgb(252, 212, 225);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#listaArreglos img{
+    margin: 0px;
+    width: 150px;
+    height: auto;
+}
+
+#listaArreglos table{
+    width: 60%;
+    background-color: rgb(238, 178, 211);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#listaArreglos th{
+    padding: 20px;
+    background-color: rgb(184, 187, 252);
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+#listaArreglos td{
+    align-items: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+/*----------------------------------------------------------------TESTIMONIOS------------------------------------------------------------*/
+#testimonios{
+    width: 100%;
+    padding: 30px;
+    background-color: rgb(255, 162, 162);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.itemTestimonio{
+    background-color: rgb(255, 218, 218);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+#testimonios h2{
+    font-size: 40px;
+}
+
+#testimonios p{
+    font-size: 26px;
+    font-style: italic;
+}
+
+/*----------------------------------------------------------------FOOTER------------------------------------------------------------*/
+footer{
+    padding: 15px;
+}
+
+
